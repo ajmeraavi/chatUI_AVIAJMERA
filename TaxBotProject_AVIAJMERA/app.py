@@ -5,7 +5,7 @@ import openai  # You might need to install the openai package
 app = Flask(__name__)
 
 # Load your OpenAI GPT API key here (you should keep this secure and not expose it in the code)
-openai.api_key = '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'
+openai.api_key = 'THE KEY'
 
 @app.route('/')
 def index():
