@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deloitte Auditor Enterprise Chat UI - by Avi Ajmera</title>
+<style>
+    h1 {text-align: center; padding: 20px; background-color: #f8f9fa;}
+    #chat-box {border: 2px solid #dee2e6; margin-bottom: 20px;}
+    #user-input, #bot-response {padding: 10px; border-bottom: 1px solid #dee2e6;}
+    button {margin: 10px;}
+</style>
+</head>
+<body style="background-color: #f8f9fa;">
+    <h1>Deloitte Auditor Enterprise Chat UI - by Avi Ajmera <img src="/static/Deloitte_Logo.png" alt="Deloitte Logo" style="height:50px; float:right;"></h1>
+    
+    <div id="chat-box" style="height: 300px; overflow: auto; border: 1px solid black; padding: 10px;">
+        <!-- Chat messages will be displayed here -->
+    </div>
+    <form id="query-form">
+        <input type="text" id="user-query" placeholder="Type your question..." required>
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
